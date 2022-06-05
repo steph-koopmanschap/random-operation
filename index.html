@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Random Operation</title>
+  <meta name="description" content="Random Operation">
+  <meta name="author" content="Steph Koopmanschap">
+
+  <meta property="og:title" content="Random Operation">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://random-operation.lan/index.html/">
+  <meta property="og:description" content="Random Operation">
+  <meta property="og:image" content="image.png">
+
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <center>
+    <h1>Random Operation</h1>
+    <h2>Version 1.0</h2>
+    <p>The user inputs 2 numbers. Then the computer returns a number which is a random mathemical operation using the 2 numbers</p>
+    
+    <label>Number 1</label>
+    <input type="value" id="numOneInput"></input>
+    <label>Number 2</label>
+    <input type="value" id="numTwoInput"></input>
+    <button onclick="sendOutput()">SUBMIT</button>
+    <h3 id="numOneDisplay">Number 1: </h3>
+    <h3 id="numTwoDisplay">Number 2: </h3>
+    <h3 id="result">Result: </h3>
+
+    </center>
+    
+    <script src="main.js"></script>
+
+</body>
+</html>
